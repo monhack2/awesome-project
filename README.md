@@ -6,3 +6,4 @@ It is awesome
     source venv/Scripts/activate # on Windows
     pip install -r requirements.txt
     flask run
+    python -m src.create_db
