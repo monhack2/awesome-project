@@ -1,11 +1,8 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <title>{{ title }} - Awesome App</title>
-    </head>
-    <body>
-        <h1>{{ title }}</h1>
-        {% block main %}{% endblock %}
-    </body>
-</html>
+{% extends "master.html" %}
+{% block main %}
+<h1>{{ title }} - Links to all other Pages</h1>
+    {% for page in page_list %}
+    <h2>{{ page.title }}</h2>
+    <a href="{{ page.url }}">Click here to access</a>
+    {% endfor %}
+{% endblock %}
