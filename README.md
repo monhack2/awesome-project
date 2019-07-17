@@ -1,3 +1,6 @@
+# awesome-project
+It is awesome
+
     python3 -m venv venv
     # on *nix: source bin/venv/activate
     source bin/Scripts/activate # on Windows
