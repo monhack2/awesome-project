@@ -2,7 +2,7 @@
 It is awesome
 
     python3 -m venv venv
-    # on *nix: source bin/venv/activate
-    source bin/Scripts/activate # on Windows
+    # on *nix: source venv/bin/activate
+    source venv/Scripts/activate # on Windows
     pip install -r requirements.txt
     flask run
